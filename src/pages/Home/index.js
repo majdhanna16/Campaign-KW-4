@@ -26,17 +26,9 @@ class Home extends Component {
 
 	async handleSubmitBtn(e) {
 		e.preventDefault();
-		const regex = new RegExp(/^(?:\+?0*?966)?0?5[0-9]{8}$/);
 		if (!e.target.acceptPolicy.checked) {
 			this.setState({
 				error_message: "الرجاء الموافقه على شروط سياسه الخصوصيه",
-			});
-			return;
-		}
-		if (!regex.test(e.target.phone_number.value)) {
-			this.makeBorderRed("phone_number");
-			this.setState({
-				error_message: "البيانات غير صحيحة",
 			});
 			return;
 		}
@@ -54,7 +46,7 @@ class Home extends Component {
 			details: e.target.details.value,
 			owner_id: configData.owner_id || 1,
 			order_number: order_number,
-			source: "Campaign-KW-3",
+			source: "Campaign-KW-2",
 		};
 		var Buffer = require("buffer/").Buffer;
 		const username = configData.Authorization.username;
