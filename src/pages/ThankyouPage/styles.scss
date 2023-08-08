@@ -1,0 +1,32 @@
+.thankyou-content
+{
+    text-align: center;
+    margin-top: 50px;
+
+    .thank-you-title
+    {
+        color: #000;
+        font-size: 65px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    i
+    {
+        color: green;
+        font-size: 65px;
+    }
+
+    .thank-you-content
+    {
+        color: #7c8595;
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .back-to-home
+    {
+        color: blue;
+    }
+}
