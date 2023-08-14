@@ -39,7 +39,7 @@ class App extends Component {
 		const token = Buffer.from(`${username}:${password}`, "utf8").toString("base64");
 		const request = {
 			column: "campaign_name",
-			value: '"Campaign-KW-3"',
+			value: '"Campaign-KW-4"',
 			tableName: "campaigns_phone_numbers",
 			selectValues: "phone_number",
 		};
