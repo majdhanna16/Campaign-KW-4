@@ -129,8 +129,7 @@ class Home extends Component {
 						<br />
 						<p className="home-title">قطاع حماية المستهلك</p>
 						<div className="content-div">
-							<p className="content-row">خدمة الكترونية تقدمها وزارة التجارة تمكن المستفيد من البلاغ عن حالة غش تجاري</p>
-							<p className="content-row">تعرف كيف تسترجع اموالك من انواع الاحتيال المالي مثل</p>
+							<p className="content-row">خدمة الكترونية تقدمها وزارة التجارة تمكن المستفيد من البلاغ عن حالة غش تجاري مثل</p>
 							<p className="content-val">شراء عقار من شركة وهمية</p>
 							<p className="content-val">شراء سيارة من بائع وهمي</p>
 							<p className="content-val">بضاعة غير مطابقة للمواصفات</p>
