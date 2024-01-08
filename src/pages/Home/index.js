@@ -200,7 +200,7 @@ class Home extends Component {
 					<div className="content-div">
 						<p className="content-row">تدعم وتشرف وزارة التجارة والصناعة على الأنشطة التجارية والاقتصادية وتوفر السلع والمواد والخدمات</p>
 					</div>
-					<p className="bottom-title">حماية المستهلك</p>
+{/*<p className="bottom-title">حماية المستهلك</p>
 					<div className="content-div">
 						<a href="tel:135" className="content-val">
 							135 لتقديم شكوى
@@ -208,13 +208,13 @@ class Home extends Component {
 						<a href="tel:137" className="content-val">
 							137 لاستفسارات الشركات
 						</a>
-					</div>
+					</div> */}
 				</div>
 				<div className="bottom-header">
 					<NavLink className="navigator" to="policy">
 						سياسه الخصوصيه
 					</NavLink>
-					<p className="rights-text">© جميع الحقوق محفوظة - 2022م.</p>
+					<p className="rights-text">© جميع الحقوق محفوظة - {new Date().getFullYear()}م.</p>
 				</div>
 			</div>
 		);
